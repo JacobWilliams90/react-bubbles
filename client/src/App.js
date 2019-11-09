@@ -1,10 +1,9 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Redirect  } from "react-router-dom";
+import { BrowserRouter as Router, Route, Redirect } from "react-router-dom";
 
 import Login from "./components/Login";
 import "./styles.scss";
 import BubblePage from "./components/BubblePage"
-import PrivateRoute from './helpers/PrivateRoute'
 
 function App() {
 
